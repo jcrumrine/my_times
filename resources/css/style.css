@@ -39,3 +39,26 @@ nav {
 nav span {
   margin: 0px 10px;
 }
+
+/* Main Content Container */
+.content {
+  display: flex;
+  width: 100%;
+}
+
+.column {
+display: inline-flex;
+flex-direction: column;
+}
+
+.column.large {
+  width: 630px;
+}
+
+.column.medium {
+  width: 300px;
+}
+
+.column.small {
+  width: 240px;
+}
