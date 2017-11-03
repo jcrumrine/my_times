@@ -1,0 +1,41 @@
+div {
+  border: 1px solid black;
+}
+
+
+/* Header Container*/
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid black;
+  width: 100%;
+  height: 80px;
+  font-family: Verdana;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+/* Logo Container -> Nested in Header Container */
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo img {
+  margin: 10px;
+}
+
+.logo span {
+  color: MediumAquamarine;
+}
+
+/* Nav Container -> Nested in Header Container */
+nav {
+ display: flex;
+ margin-right: 10px;
+}
+
+nav span {
+  margin: 0px 10px;
+}
